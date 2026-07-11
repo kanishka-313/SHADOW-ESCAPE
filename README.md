@@ -1,92 +1,97 @@
-# Shadow Escape
-
-## Overview
-
+Shadow Escape
+Overview
 Shadow Escape is a browser-based cyberpunk survival game developed during a 24-hour AI Game Jam.
 
-The player explores a futuristic maze, collects energy crystals, and survives against intelligent AI drones. The game becomes more difficult over time as enemies move faster.
+The player explores a futuristic maze, collects energy crystals, and survives against intelligent AI drones. The game becomes more difficult over time as enemies move faster and combos reset upon taking damage.
 
----
+Features
+Responsive browser game
 
-## Features
+Mobile and desktop support
 
-- Responsive browser game
-- Mobile and desktop support
-- Neon cyberpunk UI
-- Dynamic enemy AI
-- Increasing difficulty
-- Health system
-- High Score using LocalStorage
-- Pause & Restart
-- Animated background
-- Particle effects
-- Smooth animations
+Neon cyberpunk UI
 
----
+Dynamic enemy AI
 
-## Technologies Used
+Increasing difficulty and combo scoring
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+Health system
 
----
+High Score using LocalStorage
 
-## AI Tools Used
+Pause & Restart
 
-- ChatGPT
-- Google Gemini
+Animated background
+
+Particle effects & camera shake
+
+Smooth animations
+
+Technologies Used
+HTML5
+
+CSS3
+
+JavaScript (Vanilla)
+
+AI Tools Used
+ChatGPT
+
+Google Gemini
 
 These tools were used to assist with planning, debugging, UI ideas, and code generation.
 
----
+How to Play
+Move using WASD or Arrow Keys.
 
-## How to Play
+On mobile, use the touch controls.
 
-- Move using WASD or Arrow Keys.
-- On mobile, use the touch controls.
-- Collect blue energy crystals.
-- Avoid AI drones.
-- Survive as long as possible.
-- Beat your highest score.
+Collect purple energy crystals to build your combo multiplier.
 
----
+Avoid neon-red AI drones.
 
-## What Was Built During the Hackathon
+Survive as long as possible.
 
-- Complete gameplay
-- Player movement
-- Enemy AI
-- Collision detection
-- Responsive UI
-- Score system
-- High score storage
-- Visual effects
-- Mobile controls
-- Game deployment
+Beat your highest score.
 
----
+What Was Built During the Hackathon
+Complete gameplay
 
-## Assets
+Player movement
 
-- Icons generated using AI
-- Sound placeholders
-- Custom CSS animations
+Enemy AI
 
----
+Collision detection
 
-## Credits
+Responsive UI
 
+Score and combo system
+
+High score storage
+
+Visual effects
+
+Mobile controls
+
+Game deployment
+
+Assets
+Icons generated using AI
+
+Sound placeholders
+
+Custom CSS animations
+
+Credits
 Created during the Parsewave AI Game Jam.
 
 AI Assistance:
-- ChatGPT
-- Google Gemini
+
+ChatGPT
+
+Google Gemini
 
 No copyrighted assets were used.
 
----
-
-## Deployment
-
+Deployment
 Hosted using GitHub Pages.
