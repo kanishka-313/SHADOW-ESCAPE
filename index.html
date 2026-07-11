@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Shadow Escape | Pro Edition</title>
+    <!-- Professional Indie Cyberpunk Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Deep Space Gradient -->
+    <div class="bg-animation"></div>
+
+    <!-- Main Game Container -->
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- HUD (Heads Up Display) -->
+        <div id="hud" class="hidden">
+            <div class="hud-left">
+                <div class="score-box">SCORE: <span id="score">0</span></div>
+                <div class="score-box">BEST: <span id="high-score">0</span></div>
+                <!-- New Combo Counter -->
+                <div id="combo-container" class="score-box">COMBO: <span id="combo">x1</span></div>
+            </div>
+            <button id="pause-btn" class="cyber-btn small-btn">|| PAUSE</button>
+            <div class="hud-right">
+                <div class="health-bar-container">
+                    <div id="health-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Screen -->
+        <div id="start-screen" class="glass-panel">
+            <h1 class="glitch" data-text="SHADOW ESCAPE">SHADOW ESCAPE</h1>
+            <p class="subtitle">Survive. Collect. Ascend.</p>
+            <div class="controls-info">
+                <p><span>[W A S D]</span> or <span>[ARROWS]</span> to Move</p>
+                <p>Build combos for massive scores!</p>
+            </div>
+            <button id="start-btn" class="cyber-btn pulse-btn">INITIALIZE</button>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div id="game-over-screen" class="glass-panel hidden">
+            <h1 class="neon-red">SYSTEM FAILURE</h1>
+            <h2>FINAL SCORE: <span id="final-score" class="neon-blue">0</span></h2>
+            <button id="restart-btn" class="cyber-btn pulse-btn">REBOOT</button>
+        </div>
+
+        <!-- Pause Screen -->
+        <div id="pause-screen" class="glass-panel hidden">
+            <h1 class="neon-blue">STANDBY MODE</h1>
+            <button id="resume-btn" class="cyber-btn pulse-btn">RESUME</button>
+        </div>
+
+        <!-- Mobile Controls Overlay -->
+        <div id="mobile-controls" class="hidden">
+            <div class="d-pad">
+                <button class="d-btn up" data-key="ArrowUp">▲</button>
+                <button class="d-btn left" data-key="ArrowLeft">◄</button>
+                <button class="d-btn right" data-key="ArrowRight">►</button>
+                <button class="d-btn down" data-key="ArrowDown">▼</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

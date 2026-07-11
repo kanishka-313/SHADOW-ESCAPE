@@ -1,0 +1,16 @@
+AI Tools Used
+
+1. ChatGPT
+Purpose:
+- Game idea brainstorming
+- README generation
+- Deployment guidance
+
+2. Google Gemini
+Purpose:
+- HTML generation
+- CSS generation
+- JavaScript implementation
+- UI improvements
+- Bug fixing
+- Performance optimization
